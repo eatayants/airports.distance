@@ -1,0 +1,71 @@
+﻿/* OVERRIDES & GENERAL STYLES */
+html,
+body {
+  background-color: $color-body-bg;
+}
+
+hr {
+  height: 1.5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  color: $color-subtitle;
+}
+
+.title:not(.is-spaced) + .subtitle.is-5 {
+  margin-top: -1rem;
+}
+
+.box {
+  padding: 1.75rem;
+  border-radius: 0.25rem;
+  border-color: rgba(0,0,0,.05);
+  box-shadow: 0 2px 7px 0 rgba(0,0,0,.08), 0 5px 20px 0 rgba(0,0,0,.06);
+
+  &.container-box {
+    min-height: 446px;
+  }
+}
+
+.section {
+    min-height: 300px;
+}
+
+code {
+  padding: 0.275em 0.45em;
+  font-size: 0.9em;
+  word-break: break-word;
+  border-radius: 3px;
+  color: $color-code;
+  background-color: #ebedf0;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  &.form-value {
+    margin-left: 5px;
+  }
+}
+
+.form-columns {
+  h5 {
+    margin-bottom: 3rem !important;
+  }
+
+  .title:not(.is-spaced) + .subtitle {
+    margin-top: -1rem;
+  }
+
+  .form-control-group {
+    width: 95%;
+    min-height: 60px;
+  }
+}
+
+.is-horizontal-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  font-weight: 600;
+}
