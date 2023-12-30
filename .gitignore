@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Airports.Distance/FileContentIndex
+/Airports.Distance/bin/Debug/netcoreapp2.1
+/Airports.Distance/ClientApp/node_modules
+/Airports.Distance.Model/bin/Debug/netcoreapp2.1
+/Airports.Distance.Model/obj
+/Airports.Distance.Service/bin/Debug/netcoreapp2.1
+/Airports.Distance.Service/obj
